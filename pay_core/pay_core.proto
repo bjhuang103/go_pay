@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package pay_core;
+
+message payReq {
+  string TradeNo = 1;
+}
+
+message payResp {
+  string RetCode = 1;
+}
+
+message refundReq {
+  string TradeNo = 1;
+}
+
+message refundResp {
+  string RetCode = 1;
+}
+
+service pay_core {
+  rpc pay(payReq) returns(payResp);
+
+  rpc refund(refundReq) returns(refundResp);
+}

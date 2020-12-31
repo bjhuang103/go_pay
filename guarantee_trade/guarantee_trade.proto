@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package guarantee_trade;
+
+message prePayReq {
+  string book = 1;
+  int64 price = 2;
+}
+
+message prePayResp {
+  bool ok = 1;
+}
+
+message payReq {
+  string OrderNo = 1;
+  int64 Amount = 2;
+}
+
+message payResp {
+  string RetCode = 1;
+}
+
+
+service guarantee_trade {
+  rpc prePay(prePayReq) returns(prePayResp);
+
+  rpc pay(payReq) returns(payResp);
+}
