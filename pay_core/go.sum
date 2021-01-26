@@ -21,6 +21,8 @@ github.com/bjhuang103/go_pay v0.0.0-20201230133936-cc0375dd3ac5 h1:q+ZwVzcURqwGl
 github.com/bjhuang103/go_pay v0.0.0-20201230133936-cc0375dd3ac5/go.mod h1:v3JVZPfB2hfJz3Oa16MaNNE97GCiCIm9dV/ce3GSYfk=
 github.com/bjhuang103/go_pay v0.0.0-20201231024503-ee6ecd8380a1 h1:eJ4JBPO7nsaVOBwaGOzTukoztZZTpK5yldiqcCmxrg0=
 github.com/bjhuang103/go_pay v0.0.0-20201231024503-ee6ecd8380a1/go.mod h1:NuANg+5q1HzxXeYjOWpih+1JlDa4S9WhAdp+bP7YhdY=
+github.com/bjhuang103/go_pay v0.0.1 h1:Fg+p7Vh4UNqSkKZfnNMJv59UX0T/ZqP0MsfB6b8TRFY=
+github.com/bjhuang103/go_pay v0.0.1/go.mod h1:NuANg+5q1HzxXeYjOWpih+1JlDa4S9WhAdp+bP7YhdY=
 github.com/bkaradzic/go-lz4 v1.0.0/go.mod h1:0YdlkowM3VswSROI7qDxhRvJ3sLhlFrRRwjwegp5jy4=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
 github.com/cespare/xxhash/v2 v2.1.1 h1:6MnRN8NT7+YBpUIWxHtefFZOKTAPgGjpQSxqLNn0+qY=

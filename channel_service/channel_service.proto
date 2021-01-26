@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package channel_service;
+
+message PayReq {
+  string TradeNo = 1;
+}
+
+message PayResp {
+  string RetCode = 1;
+}
+
+message RefundReq {
+  string TradeNo = 1;
+}
+
+message RefundResp {
+  string RetCode = 1;
+}
+
+service ChannelService {
+  rpc Pay(PayReq) returns(PayResp);
+
+  rpc Refund(RefundReq) returns(RefundResp);
+}

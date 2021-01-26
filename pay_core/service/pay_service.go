@@ -2,7 +2,7 @@ package service
 
 import (
 	"context"
-	"github.com/bjhuang103/go_pay/logs"
+	"github.com/bjhuang103/go_pay/common/logs"
 	"github.com/bjhuang103/go_pay/pay_core/pay_core"
 )
 
